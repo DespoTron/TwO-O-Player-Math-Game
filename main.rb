@@ -20,5 +20,15 @@ require './questions'
 
 # Starting Game Logic 
 
+P1 = Players.new('Player 1')
+P2 = Players.new('Player 2')
+
+puts "****************************************"
+puts "||                                    ||"
+puts "|| Welcome to TwO-O-Player Math Game! ||"
+puts "||                                    ||"
+puts "****************************************"
+
+
 
 
