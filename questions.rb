@@ -1,1 +1,11 @@
 class Questions
+  attr_accessor :answer, :display
+
+  def initialize()
+    @first_num = rand(1..20)
+    @second_num = rand(1..20)
+    @answer = @first_num + @second_num
+    @display = "What does #{@first_num} plus #{@second_num} equal?"
+  end
+  
+end
