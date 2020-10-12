@@ -2,5 +2,5 @@
 # It requires the other files/gems that it needs
 
 require './players'
-require './math_questions'
+require './questions'
 
